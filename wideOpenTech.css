@@ -1,0 +1,164 @@
+.body-container{
+  width: 100vw;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background: none;
+  padding: 50px;
+  top: 0;
+}
+.header-logo{
+  height:200px;
+  width: 300px;
+}
+.header-menu{
+  right: 0;
+  width:50%;
+  padding-right: 50px;
+}
+.header-text{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.ham{
+  right: 0px;
+  display: none;
+}
+.ham img {
+    max-width: 30%;
+    height: auto;
+    width: auto;
+}
+.fixed{
+  position: fixed;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.flex{
+  display: flex;
+}
+.flex-even-space-row{
+  justify-content: space-between;
+  flex-flow: row;
+}
+.main-1-background{
+  position:absolute;
+  top: 0;
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.main-1-container{
+  position: absolute;
+  top: 200px;
+  left: 25vw;
+  width: 50vw;
+  height: 400px;
+  background: transparent;
+}
+.main-2-background{
+  height: 400px;
+  width: 100%;
+  background: #f0f0f0;
+  margin-top: 70vh;
+}
+.main-2-text-container{
+  position: absolute;
+  width: 60vw;
+  left: 18vw;
+  top: 75vh;
+  text-align: center;
+}
+.main-2-pic{
+  position: absolute;
+  left: 45vw;
+  top: 90vh;
+}
+.main-2-text-2{
+  position: absolute;
+  width: 60vw;
+  left: 17.2vw;
+  top: 105vh;
+  text-align: center;
+  color: gray;
+  font-size: 2vw;
+}
+.text-gray{
+  color: gray;
+}
+.text-white-black{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.text-green{
+  color:green;
+}
+.text-orange{
+  color: orange;
+}
+.main-size-med{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+.main-size-large{
+  font-size: 7vw;
+  font-weight: 800;
+}
+.main-size-small{
+  font-size: 20px;
+  font-weight: 500;
+}
+.text-center{
+  text-align: center;
+}
+.small-block{
+  background: white;
+  height: 10px;
+  width: 5vw;
+  border: solid 1px black;
+  margin-top: 8px;
+}
+.main-1-bottom-text{
+  margin: 0px;
+  width: 84%;
+}
+.learn-more-button{
+  background: #bdd436;
+  height: 5.5vh;
+  width: 11.5vw;
+  letter-spacing: 1px;
+  padding: 1.6vh 0 0 2.8vw;
+  font-size: 1vw;
+  font-weight: 700;
+  border-radius: 1vw;
+  margin-left: 15vw;
+  margin-top: 3vw;
+}
+
+@media (max-width: 999px) {
+  .header-menu{
+    display: none;
+    }
+  .ham{
+    right: 0px;
+    display: block;
+  }
+  .ham img {
+      max-width: 30%;
+      height: auto;
+      width: auto;
+  }
+}
+@media (max-width: 750px) {
+  .header{
+    background: white;
+  }
+}
